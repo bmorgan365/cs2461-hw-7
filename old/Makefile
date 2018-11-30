@@ -2,7 +2,7 @@
 
 # compilation settings
 CC = gcc
-CFLAGS = -I$(INCLUDE_DIR) -Wall -Wextra -Werror -pedantic -std=gnu99 -pedantic -Wmissing-prototypes -Wstrict-prototypes -Wold-style-definition -g
+CFLAGS = -I$(INCLUDE_DIR) -Wall -Wextra -pedantic -std=gnu99 -pedantic -Wmissing-prototypes -Wstrict-prototypes -Wold-style-definition -g
 
 # directory paths
 INCLUDE_DIR = ./
